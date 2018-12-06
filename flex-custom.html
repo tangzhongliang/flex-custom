@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title>
+<link rel="stylesheet" type="text/css" href="css/flex-custom.css">
+<style> 
+#main
+{
+	width:100%;
+	height:300px;
+}
+</style>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div direction='row'>
+  <div weight='1'></div>
+  <div style="display:inline-block;background-color:lightgreen;">
+  	<text>带有更多内容的绿色</text>
+  </div>
+  <div weight='1' style="background-color:white;display:inline-block"></div>
+</div>
+<br><br><br>
+<div direction='row'>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+</div>
+<br><br><br>
+<div direction='row'>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+</div>
+
+<br><br><br>
+<div direction='row' style="height:200px">
+	<div direction='column' style="height:100%">
+		<div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+</div>
+  <div weight='1'></div>
+  <div direction='column' style="height:100%">
+  	<div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+</div>
+  <div weight='1'></div>
+  <div direction='column' style="height:100%">
+  	<div weight='1'></div>
+  <div style="background-color:lightgreen;">带有更多内容的绿色</div>
+  <div weight='1'></div>
+</div>
+</div>
+<br><br><br>
+<div direction='column' style="height:200px">
+  <div weight=1></div>
+  <div style="background-color:lightgreen;">
+  	<text>带有更多内容的绿色</text>
+  </div>
+  <div weight=1></div>
+</div>
+<script type="text/javascript" src="js/flex-custom.js"></script>
+<script type="text/javascript">
+initFlex();
+</script>
+</body>
+</html>

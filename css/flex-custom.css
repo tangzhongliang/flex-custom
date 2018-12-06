@@ -1,0 +1,13 @@
+div[direction]{
+	background-color: green;
+}
+
+div[direction] [weight]{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*> 只限定第一级子元素*/
+div[direction='row'] >div{
+	display: inline-block;
+}
