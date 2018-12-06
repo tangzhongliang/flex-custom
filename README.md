@@ -2,7 +2,7 @@
 实现类似css3中的Flex特性（水平居中、垂直居中、居于两侧，居于一侧），兼容各种浏览器。
 在Flex之前，开发者要实现水平居中、垂直居中、居于两侧，居于一侧，实现过程复杂，但是css3中的Flex属性在旧版本的浏览器出现不兼容的问题。Flex-custom是基于JavaScript开发，所以能够兼容各种旧版本浏览器
 ## 效果图
-![alt text](https://github.com/tangzhongliang/flex-custom/blob/master/project-image/Untitled.png?raw=true)
+![alt text](https://github.com/tangzhongliang/flex-custom/blob/master/project-image/%E6%95%88%E6%9E%9C%E5%9B%BE.png?raw=true)
 ### 引入
 ```
 <link rel="stylesheet" type="text/css" href="css/flex-custom.css">
